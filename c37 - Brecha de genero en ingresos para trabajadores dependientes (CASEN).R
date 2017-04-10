@@ -45,4 +45,5 @@ contraste_ = list()
 for (i in 1:length(diseños)){
   contraste_[[i]] = svyttest(ingreso_hora~sexo, diseños[[i]])
 }
+#
 
