@@ -6,8 +6,9 @@ t = proc.time() # Inicia el cronómetro
 
 rm(list=ls())
 
-library(foreign)
-library(dplyr)
+library(foreign) # Para importar conjuntos de datos en múltiples formatos 
+library(dplyr) # Para manipular objetos de tipo data frame
+library(survey) # Para trabajar muestras complejas 
 
 setwd("/home/hector/GoogleDrivePersonal/Observatorio Regional/Bases NENE/NENE/BasesCASEN/")
 
@@ -22,9 +23,5 @@ directorio.casen = data.frame(names(directorio.casen),directorio.casen)
 
 casen2015 = data.frame(casen2015)
 
-
-library(survey)
-
 diseño = svydesign(id = ~varunit, strata = ~varstrat,weights = ~expr, nest = TRUE, data = casen2015)
-
 
