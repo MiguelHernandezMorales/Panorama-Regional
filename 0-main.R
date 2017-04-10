@@ -593,4 +593,4 @@ info2 = svydesign(id = ~id_directorio, strata = ~estrato, weights  =
 
 #-------------------------------------------------------------------------------
 proc.time()-t    # Detiene el cronometro
-# FIN del script main.R
+# FIN del script main.R #
