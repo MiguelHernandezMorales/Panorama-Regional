@@ -3,17 +3,17 @@
 # de actividad económica, Ñuble, 2015
 ###################################################################################################
 
-diseño$variables =  mutate(diseño$variables, educ2 = ifelse(educ==0 | educ==1, "Sin educación formal",
-                          ifelse(educ==2, "Básica completa", 
-                          ifelse(educ==3 | educ==4, "Media incompleta", 
-                          ifelse(educ==5 | educ==6, "Media completa", 
-                          ifelse(educ==7, "Técnico Nivel Superior Incompleta", 
-                          ifelse(educ==8, "Técnico Nivel Superior Completo", 
-                          ifelse(educ==9, "Profesional Incompleto", 
-                          ifelse(educ==10, "Postgrado Incompleto", 
-                          ifelse(educ==11, "Profesional Completo", 
-                          ifelse(educ==12, "Postgrado Completo", NA)))))))))))
-                          
+diseño$variables$educ2 = ifelse(diseño$variables$educ==0 | diseño$variables$educ==1, "Sin educación formal",
+                          ifelse(diseño$variables$educ==2, "Básica completa", 
+                          ifelse(diseño$variables$educ==3 | diseño$variables$educ==4, "Básica completa", 
+                          ifelse(diseño$variables$educ==5 | diseño$variables$educ==6, "Media completa", 
+                          ifelse(diseño$variables$educ==7, "Media completa", 
+                          ifelse(diseño$variables$educ==8, "Técnico Nivel Superior Completo", 
+                          ifelse(diseño$variables$educ==9, "Media completa", 
+                          ifelse(diseño$variables$educ==10, "Profesional Completo", 
+                          ifelse(diseño$variables$educ==11, "Profesional Completo", 
+                          ifelse(diseño$variables$educ==12, "Profesional Completo", NA))))))))))
+
 #-------- Economicamente Activos 
 educ_jov_num_nacional = svyby(~I((activ==1 | activ==2) & edad>=15 & edad<=29), by=~educ2,
                                      diseño, svytotal, na.rm=TRUE, multicore=TRUE,
