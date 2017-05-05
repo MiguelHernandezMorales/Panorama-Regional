@@ -1,5 +1,5 @@
 ##############################################################################################
-# Cuadro 53. Características generales de ocupados de Ñuble pertenecientes a pueblos indígenas, 2015 
+# Cuadro 19. Características generales de ocupados de Ñuble pertenecientes a pueblos indígenas, 2015 
 ##############################################################################################
 
 diseño$variables = mutate(diseño$variables,
