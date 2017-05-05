@@ -1,5 +1,5 @@
 ##############################################################################
-# Cuadro 37. Brecha de género en ingresos para trabajadores dependientes,
+# Cuadro 4. Brecha de género en ingresos para trabajadores dependientes,
 # ingresos de los dependientes según sexo y nivel educacional de Ñuble, 2015.
 ##############################################################################
 
