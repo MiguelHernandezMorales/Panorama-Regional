@@ -10,7 +10,7 @@ info2$variables = mutate(info2$variables, pet =
                                  ifelse(edad>=15,1, 0))
 
 #-------------------------------------------------------------------------------
-### CUADRO 33: Tasas de participación, ocupación y desempleo de Ñuble, según género, 2016. Sólo residentes. 
+### CUADRO 1: Tasas de participaciÃ³n, ocupaciÃ³n y desempleo de Ã‘uble, segÃºn gÃ©nero, 2016. SÃ³lo residentes. 
 #-------------------------------------------------------------------------------
 #################################################################
 # tasa de participacion by sexo a nivel nacional
@@ -263,4 +263,4 @@ tasa.promedio.desocup.residente.nuble.sexo.. = data.frame(tasa.promedio.desocup.
 
 write.csv(tasa.promedio.desocup.residente.nuble.sexo.., "tasa_promedio_desocup_residente_nuble_sexo.csv")
 
-### FIN CUADRO 33
+### FIN CUADRO 1
