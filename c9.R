@@ -1,5 +1,5 @@
 ################################################################################
-# Cuadro 42. Condición de actividad de los jóvenes según si estudia, Ñuble, 2015 
+# Cuadro 9. Condición de actividad de los jóvenes según si estudia, Ñuble, 2015 
 ################################################################################
 
 
