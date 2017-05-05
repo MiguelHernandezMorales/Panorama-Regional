@@ -1,5 +1,5 @@
 ###################################################################################
-#Cuadro 52. Población perteneciente a pueblos indígenas de la <Región de...>, 2015
+#Cuadro 18. Población perteneciente a pueblos indígenas de la <Región de...>, 2015
 ####################################################################################
 
 diseño$variables = mutate(diseño$variables,
