@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-### CUADRO 35: Ocupados de Nuble por nivel educacional y sexo, 2016.  
+### CUADRO 3: Ocupados de Nuble por nivel educacional y sexo, 2016.  
 #-------------------------------------------------------------------------------
 ################################################################################
 # Ocupados por sexo y escolaridad a nivel nacional y nuble
@@ -65,4 +65,4 @@ ocupados.nuble.educ.sexo. =
 
 write.csv(ocupados.nuble.educ.sexo., "ocupados_nuble_educ_sexo.csv")
 
-### FIN CUADRO 35
+### FIN CUADRO 3
