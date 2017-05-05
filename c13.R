@@ -46,7 +46,7 @@ for (i in 1:length(info)){
 }
 
 #-------------------------------------------------------------------------------
-### CUADRO 46: Ocupaciones a 1 digito de nuble, segun edad, 2016
+### CUADRO 13: Ocupaciones a 1 digito de nuble, segun edad, 2016
 #-------------------------------------------------------------------------------
 ###################################################################
 # Total de ocupados jovenes y no jovenes de nuble por sector categoria ocupacional
@@ -82,7 +82,7 @@ total.ocupados.nuble.1digito.jovenes. =
 write.csv(total.ocupados.nuble.1digito.jovenes., "total_ocupados_nuble_idigito_jovenes.csv")
 
 ################################################################
-# tasa de dependiente con contrato indefinido del total de ocupados en nuble by clasificación a 1 digito y  sexo
+# tasa de dependiente con contrato indefinido del total de ocupados en nuble by clasificaciÃ³n a 1 digito y  sexo
 ################################################################
 #
 tasa.dep.con.contratoindef.nuble.1digito.jovenes = svyby(~I(cat.ocup=="asalariado con contrato indefinido"),
@@ -158,4 +158,4 @@ names(escolaridad.promedio.ocupaciones.nuble.jovenes) =
 
 write.csv(escolaridad.promedio.ocupaciones.nuble.jovenes, "escolaridad_promedio_ocupaciones_nuble_jovenes.csv")
 
-### FIN CUADRO 46
+### FIN CUADRO 13
