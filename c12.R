@@ -1,5 +1,5 @@
 ############################################################################################
-# Cuadro 45. Razones de inactividad de los jóvenes que no estudian ni trabajan. Ñuble, 2015
+# Cuadro 12. Razones de inactividad de los jóvenes que no estudian ni trabajan. Ñuble, 2015
 ############################################################################################
 diseño$variables = mutate(diseño$variables,
                    razones = ifelse(o7r1==1, "Iniciadores", 
