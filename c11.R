@@ -1,5 +1,5 @@
 ###################################################################################################
-# Cuadro 44. Nivel educacional de los jóvenes que no están estudiando, según condición 
+# Cuadro 11. Nivel educacional de los jóvenes que no están estudiando, según condición 
 # de actividad económica, Ñuble, 2015
 ###################################################################################################
 
