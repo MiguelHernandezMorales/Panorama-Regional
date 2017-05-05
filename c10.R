@@ -1,5 +1,5 @@
 ############################################################################################
-# Cuadro 43. Distribución de jóvenes que no estudian ni trabajan (NINI), según edad y género
+# Cuadro 10. Distribución de jóvenes que no estudian ni trabajan (NINI), según edad y género
 ############################################################################################
 
 diseño$variables$ tramo_jov = cut(diseño$variables$edad, breaks = c(14,19,24,29),
