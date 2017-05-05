@@ -45,7 +45,7 @@ for (i in 1:length(info)){
 }
 
 #-------------------------------------------------------------------------------
-### CUADRO 47: Distribucion sectorial Nuble, segun edad, 2016. 
+### CUADRO 14: Distribucion sectorial Nuble, segun edad, 2016. 
 #-------------------------------------------------------------------------------
 ###################################################################
 # Total de ocupados jovenes y no jovenes de nuble por sector categoria ocupacional
@@ -157,4 +157,4 @@ names(escolaridad.promedio.ocupaciones.nuble.jovenes) =
 
 write.csv(escolaridad.promedio.ocupaciones.nuble.jovenes, "escolaridad_promedio_ocupaciones_nuble_jovenes.csv")
 
-### FIN CUADRO 47
+### FIN CUADRO 11
