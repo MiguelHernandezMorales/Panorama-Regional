@@ -45,7 +45,7 @@ for (i in 1:length(info)){
 }
 
 ###################################################################
-# Distribucion sectorial de Nuble, segun genero, 2015
+# CUADRO 6: Distribucion sectorial de Nuble, segun genero, 2015
 ###################################################################
 #
 total.ocupados.nuble.sector.sexo = list()
@@ -154,4 +154,4 @@ names(escolaridad.promedio.ocupaciones.nuble.sexo) =
 
 write.csv(escolaridad.promedio.ocupaciones.nuble.sexo, "escolaridad_promedio_ocupaciones_nuble_sexo.csv")
 
-### FIN CUADRO 39
+### FIN CUADRO 6
