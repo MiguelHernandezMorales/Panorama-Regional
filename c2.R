@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-### CUADRO 34: Escolaridad, edad e ingreso promedio de la población ocupada de Nuble segun genero, 2016.  
+### CUADRO 2: Escolaridad, edad e ingreso promedio de la poblaciÃ³n ocupada de Nuble segun genero, 2016.  
 #-------------------------------------------------------------------------------
 # edad promedio total de los ocupados a nivel nacional
 edad.promedio.ocupados.nacional = list()
@@ -137,7 +137,7 @@ esc.promedio.ocupados.nuble.sexo. =
 
 write.csv(esc.promedio.ocupados.nuble.sexo., "esc_promedio_ocupados_nuble_sexo.csv")
 
-# Porcentaje de los ocupados con educación superior completa NACIONAL
+# Porcentaje de los ocupados con educaciÃ³n superior completa NACIONAL
 tasa.ocupados.profesional.nacional = svyby(~I(cae_general=="Ocupado" & educ>=7),
                                       by=~sexo, denominator=~I(cae_general=="Ocupado"), 
                                       info2, svyratio, multicore = TRUE, 
@@ -173,7 +173,7 @@ names(tasa.promedio.ocupados.profesional.nacional.) =
 write.csv(tasa.promedio.ocupados.profesional.nacional., "tasa_promedio_ocupados_profesional_nacional.csv")
 
 
-# Porcentaje de los ocupados con educación superior completa NUBLE
+# Porcentaje de los ocupados con educaciÃ³n superior completa NUBLE
 tasa.ocupados.profesional.nuble = svyby(~I(prov_e==84 & educ>=7),
                                            by=~sexo, denominator=~I(prov_e==84), 
                                            info2, svyratio, multicore = TRUE, 
@@ -208,4 +208,4 @@ names(tasa.promedio.ocupados.profesional.nuble.) =
 
 write.csv(tasa.promedio.ocupados.profesional.nuble., "tasa_promedio_ocupados_profesional_nuble.csv")
 
-### FIN CUADRO 34
+### FIN CUADRO 2
