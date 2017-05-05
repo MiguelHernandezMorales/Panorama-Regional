@@ -1,5 +1,5 @@
 ###############################################################################################################
-# Cuadro 50. Inactivos entre 15 y 60 años con discapacidad y sin discapacidad, según razón de inactividad 2015 
+# Cuadro 16. Inactivos entre 15 y 60 años con discapacidad y sin discapacidad, según razón de inactividad 2015 
 ###############################################################################################################
 
 diseño$variables = mutate(diseño$variables, discapacitado = ifelse(s34_1a!=1 |s34_1b!=1 |
