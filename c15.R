@@ -1,5 +1,5 @@
 ##############################################################################################
-# Cuadro 49. Características generales de ocupados de Ñuble en situación de discapacidad, 2015 
+# Cuadro 15. Características generales de ocupados de Ñuble en situación de discapacidad, 2015 
 ##############################################################################################
 
 diseño$variables = mutate(diseño$variables, 
