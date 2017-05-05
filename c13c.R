@@ -46,7 +46,7 @@ for (i in 1:length(info)){
 }
 
 #-------------------------------------------------------------------------------
-### CUADRO 46: 
+### CUADRO 13: 
 #-------------------------------------------------------------------------------
 ###################################################################
 # Total de ocupados jovenes y no jovenes de nuble por sector categoria ocupacional
@@ -121,4 +121,4 @@ names(tasa.cuentap.nuble.1digito.jovenes) =
 
 write.csv(tasa.cuentap.nuble.1digito.jovenes, "tasa_cuentap_nuble_1digito_jovenes.csv")
 
-### FIN CUADRO 46
+### FIN CUADRO 13
