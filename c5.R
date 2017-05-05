@@ -78,7 +78,7 @@ total.ocupados.nuble.1digito.sexo. =
 write.csv(total.ocupados.nuble.1digito.sexo., "total_ocupados_nuble_1digito_sexo.csv")
 
 ################################################################
-# tasa de dependiente con contrato indefinido del total de ocupados en nuble by clasificación a 1 digito y  sexo
+# tasa de dependiente con contrato indefinido del total de ocupados en nuble by clasificaciÃ³n a 1 digito y  sexo
 ################################################################
 #
 tasa.dep.con.contratoindef.nuble.1digito.sexo = svyby(~I(cat.ocup=="asalariado con contrato indefinido" & prov_e==84),
@@ -154,4 +154,4 @@ names(escolaridad.promedio.ocupaciones.nuble.sexo) =
 
 write.csv(escolaridad.promedio.ocupaciones.nuble.sexo, "escolaridad_promedio_ocupaciones_nuble_sexo.csv")
 
-### FIN CUADRO 38
+### FIN CUADRO 5
