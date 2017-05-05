@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-### CUADRO 37: Brecha de genero en ingresos para trabajadores dependientes, ingresos de los dependientes segun sexo y nivel educacional de Nuble, 2016. 
+### CUADRO 4: Brecha de genero en ingresos para trabajadores dependientes, ingresos de los dependientes segun sexo y nivel educacional de Nuble, 2016. 
 #-------------------------------------------------------------------------------
 ################################################################################
 # ocupados a nivel de nuble, by sexo, by educ
@@ -34,4 +34,4 @@ ocupados.nuble.educ.sexo. =
 
 write.csv(ocupados.nuble.educ.sexo., "ocupados_nuble_educ3_sexo.csv")
 
-### FIN CUADRO 37
+### FIN CUADRO 4
